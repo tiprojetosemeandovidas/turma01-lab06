@@ -1,55 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>L'Éclat | Manicure & Makeup Premium</title>
+    <title>The Heritage | Barber & Grooming</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
     <header class="navbar">
-        <div class="logo">L'ÉCLAT</div>
+        <div class="logo">HERITAGE</div>
         <nav>
             <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#servicos">Serviços</a></li>
-                <li><a href="#contato">Agendamento</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#servicos">Corte & Barba</a></li>
+                <li><a href="#contato">Agendar</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="home" class="hero">
-        <div class="hero-content" data-aos="fade-up">
-            <span class="subtitle">A ARTE DA BELEZA</span>
-            <h1>Realce sua essência com um toque de luxo.</h1>
-            <p>Especialistas em manicure russa e maquiagem editorial para mulheres que não aceitam menos que a perfeição.</p>
-            <a href="#" class="btn-primary">Reserve seu momento</a>
+        <div class="hero-overlay"></div>
+        <div class="hero-content" data-aos="fade-right">
+            <span class="tagline">TRADIÇÃO E ESTILO</span>
+            <h1>Corte de respeito, <br>experiência premium.</h1>
+            <p>Mais que uma barbearia, um refúgio para o homem moderno que preza pela excelência e pelos detalhes.</p>
+            <div class="cta-group">
+                <a href="#" class="btn-main">Agendar agora</a>
+                <a href="#servicos" class="btn-outline">Nossos Serviços</a>
+            </div>
         </div>
     </section>
 
     <section id="servicos" class="services">
-        <h2 data-aos="fade-right">Nossa Expertise</h2>
-        <div class="grid-services">
-            <div class="card" data-aos="zoom-in" data-aos-delay="100">
-                <div class="card-img manicure"></div>
-                <h3>Manicure Design</h3>
-                <p>Muito além do básico. Técnicas avançadas de cutilagem e esmaltação premium.</p>
+        <div class="section-title" data-aos="fade-up">
+            <h2>Serviços de Mestre</h2>
+            <div class="divider"></div>
+        </div>
+        
+        <div class="grid-barber">
+            <div class="service-card" data-aos="flip-left">
+                <div class="icon">✂</div>
+                <h3>Corte Signature</h3>
+                <p>Degradês impecáveis, tesoura clássica e finalização com produtos premium.</p>
+                <span class="price">R$ 80</span>
             </div>
-            <div class="card" data-aos="zoom-in" data-aos-delay="200">
-                <div class="card-img makeup"></div>
-                <h3>Visagismo & Make</h3>
-                <p>Maquiagens personalizadas que valorizam seus traços e iluminam sua pele.</p>
+            <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+                <div class="icon">🪒</div>
+                <h3>Toalha Quente</h3>
+                <p>O ritual da barba tradicional: navalha, hidratação e relaxamento profundo.</p>
+                <span class="price">R$ 60</span>
             </div>
         </div>
     </section>
-
-    <footer id="contato">
-        <p>&copy; 2026 L'Éclat Studio. Todos os direitos reservados.</p>
-    </footer>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
